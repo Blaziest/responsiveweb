@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.menu{
+    width: 15%;
+}
+
+.menu a{
+    background-color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    margin-top: 8px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 70%;
+    margin: 0 15px;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.section{
+    width: 15%;
+    background-color: #92D8CF;
+    margin: 0 10px;
+    padding:20px;
+}
